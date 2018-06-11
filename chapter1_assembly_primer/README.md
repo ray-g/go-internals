@@ -11,6 +11,8 @@
 
 *本章中的引用段落/注释都引用自官方文档或者 Go 的代码库，除非另外注明*
 
+[链接](#links)
+
 ## "伪汇编"
 
 Go 编译器会输出一种抽象可移植的汇编代码，这种汇编并不对应某种真实的硬件架构。Go 的汇编器会使用这种伪汇编，再为目标硬件生成具体的机器指令。
@@ -395,6 +397,7 @@ epilogue 部分的代码就很直来直去了: 它直接调用 runtime 的函数
 
 如果你有问题或者建议，不要犹豫，开一个蛓有 `chapter1:` 前缀的 issue 即可！
 
+<a name="links"></a>
 ## 链接
 
 - [[Official] A Quick Guide to Go's Assembler](https://golang.org/doc/asm)
