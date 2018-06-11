@@ -9,28 +9,6 @@
 - *涉及到架构相关的情况时，请假设我们是运行在 `linux/amd64` 平台上*
 - *学习过程中编译器优化会**打开**。*
 
----
-
-**目录**
-<!-- START doctoc generated TOC please keep comment here to allow auto update -->
-<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
-
-
-- ["伪汇编"](#%E4%BC%AA%E6%B1%87%E7%BC%96)
-- [拆解一个简单程序](#%E6%8B%86%E8%A7%A3%E4%B8%80%E4%B8%AA%E7%AE%80%E5%8D%95%E7%A8%8B%E5%BA%8F)
-  - [解剖 `add`](#%E8%A7%A3%E5%89%96-add)
-  - [解剖 `main`](#%E8%A7%A3%E5%89%96-main)
-- [关于协程, 栈及栈分裂](#%E5%85%B3%E4%BA%8E%E5%8D%8F%E7%A8%8B-%E6%A0%88%E5%8F%8A%E6%A0%88%E5%88%86%E8%A3%82)
-  - [栈](#%E6%A0%88)
-  - [栈分裂](#%E6%A0%88%E5%88%86%E8%A3%82)
-  - [缺失的细节](#%E7%BC%BA%E5%A4%B1%E7%9A%84%E7%BB%86%E8%8A%82)
-- [总结](#%E6%80%BB%E7%BB%93)
-- [链接test](#links)
-
-<!-- END doctoc generated TOC please keep comment here to allow auto update -->
-
----
-
 *本章中的引用段落/注释都引用自官方文档或者 Go 的代码库，除非另外注明*
 
 ## "伪汇编"
@@ -417,7 +395,7 @@ epilogue 部分的代码就很直来直去了: 它直接调用 runtime 的函数
 
 如果你有问题或者建议，不要犹豫，开一个蛓有 `chapter1:` 前缀的 issue 即可！
 
-## 链接test {#links}
+## 链接
 
 - [[Official] A Quick Guide to Go's Assembler](https://golang.org/doc/asm)
 - [[Official] Go Compiler Directives](https://golang.org/cmd/compile/#hdr-Compiler_Directives)
