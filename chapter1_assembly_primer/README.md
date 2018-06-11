@@ -25,7 +25,7 @@
   - [栈分裂](#%E6%A0%88%E5%88%86%E8%A3%82)
   - [缺失的细节](#%E7%BC%BA%E5%A4%B1%E7%9A%84%E7%BB%86%E8%8A%82)
 - [总结](#%E6%80%BB%E7%BB%93)
-- [链接](#%E9%93%BE%E6%8E%A5)
+- [链接](#link)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
@@ -417,7 +417,7 @@ epilogue 部分的代码就很直来直去了: 它直接调用 runtime 的函数
 
 如果你有问题或者建议，不要犹豫，开一个蛓有 `chapter1:` 前缀的 issue 即可！
 
-## 链接
+## 链接 {#link}
 
 - [[Official] A Quick Guide to Go's Assembler](https://golang.org/doc/asm)
 - [[Official] Go Compiler Directives](https://golang.org/cmd/compile/#hdr-Compiler_Directives)
